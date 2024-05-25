@@ -45,3 +45,26 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
+.addr-link :hover {
+    color: #404BBF;
+}
+
+.solutions {
+    background-color: var(--NAVY-BLUE, #2E2F42);
+}
+.solutions-title {
+    color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 1.12px;
+}
+.solutions-button {
+    border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.solutions-button :hover, :focus {
+background: var(--OCEAN, #404BBF);
+}
