@@ -23,10 +23,25 @@ a {
   .header-logo-studio {
     color: #2E2F42;
   }
-.nav-list {
-color: var(--NAVY-BLUE, #2E2F42);
+
+ .nav-list {
+color: #2E2F42;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
+letter-spacing: 0.32px;
+}
+
+.nav-list:hover
+.nav-list:focus {
+  color: #404bbf;
+}
+
+.addr-link {
+    color: var(--SLATE, #434455);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
