@@ -127,7 +127,15 @@ letter-spacing: 0.32px;
     background-color: #FFF;
 }
 /* Our Portfolio*/
-
+.portfolio-title {
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
 /* Footer */
 .footer-section {
     background: var(--NAVY-BLUE, #2E2F42);
