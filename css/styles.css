@@ -65,16 +65,23 @@ color: var(--WHITE, #FFF);
 text-align: center;
 font-size: 56px;
 font-weight: 700;
-line-height: 60px;
-letter-spacing: 1.12px;
+line-height: 1.07;
+letter-spacing: 0.02em;
 }
 .solutions-button {
+    color: var(--WHITE, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
-.solutions-button :hover, :focus {
+.solutions-button:hover,
+.solutions-button:focus {
 background: var(--OCEAN, #404BBF);
 }
 
