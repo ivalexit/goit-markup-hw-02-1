@@ -1,0 +1,25 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color:#FFF;
+  }
+
+  ul, ol {
+	list-style-type: none;
+}
+a {
+    text-decoration: none;
+  }
+  .header-logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
+  
+  .header-logo-studio {
+    color: #2E2F42;
+  }
