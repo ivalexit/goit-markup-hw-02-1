@@ -150,11 +150,11 @@ text-transform: capitalize;
 }
 .footer-logo {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
   }
   .footer-logo-studio {
